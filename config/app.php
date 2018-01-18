@@ -189,7 +189,9 @@ return [
         App\Providers\LocalEnvironmentServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
         jeremykenedy\laravelexceptionnotifier\LaravelExceptionNotifier::class,
-
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Laracasts\Generators\GeneratorsServiceProvider::class,
+        GrahamCampbell\Exceptions\ExceptionsServiceProvider::class
     ],
 
     /*
